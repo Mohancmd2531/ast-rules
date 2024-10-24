@@ -1,0 +1,80 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+
+/* General page styles */
+body {
+  background-color: #f8f9fa;
+  font-family: "Arial", sans-serif;
+}
+
+.container {
+  margin-top: 40px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #007bff;
+  font-weight: bold;
+}
+
+/* Card and form styling */
+.card {
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
+
+.card h3 {
+  font-size: 1.75rem;
+  color: #343a40;
+}
+
+.form-label {
+  font-weight: bold;
+  color: #495057;
+}
+
+.form-control {
+  border-radius: 15px;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+/* Custom button styling */
+.btn-custom {
+  background-color: #007bff;
+  color: white;
+  border-radius: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-custom:hover {
+  background-color: #0056b3;
+}
+
+/* Output section styling */
+#output-section {
+  display: none;
+}
+
+#output {
+  font-family: monospace;
+  font-size: 1.2rem;
+  color: #212529;
+  background-color: #e9ecef;
+  border: 1px solid #ced4da;
+  padding: 15px;
+  border-radius: 10px;
+  white-space: pre-wrap;
+}
