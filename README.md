@@ -62,7 +62,7 @@ The **AST Rules Project** is a web application that allows users to create, mana
 
 4. Start the backend server:
    cd backend
-   node index.js
+   node server.js
 
 5. Start the frontend server:
    cd frontend
